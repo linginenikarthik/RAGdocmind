@@ -1,0 +1,27 @@
+# === Databases ===
+*.sqlite
+*.sqlite3
+*.sqlite3-journal
+*.db
+*.db-journal
+*.sql
+
+# === Environments & Secrets ===
+.env
+.env.local
+.env.*.local
+
+# === System Files ===
+.DS_Store
+Thumbs.db
+*.log
+
+# === Common Node.js Dependecies ===
+node_modules/
+npm-debug.log*
+
+# === Common Python Files ===
+__pycache__/
+*.pyc
+.venv/
+venv/
